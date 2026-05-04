@@ -30,3 +30,19 @@ debug/
 # OS
 .DS_Store
 Thumbs.db
+
+# Media files
+*.mp4
+*.MOV
+*.avi
+*.jpg
+*.png
+
+# Sample videos/images
+Sample_data/
+
+# Alerts
+alerts/
+
+# Experimental
+experimental_pipeline.py
