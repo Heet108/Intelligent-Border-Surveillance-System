@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Training/Data
+dataset/
+dataset_clean/
+dataset_person/
+data/
+runs/
+temp_frames/
+
+# Model Weights
+*.pt
+
+# Logs
+logs/*.txt
+logs/*.csv
+
+# Debug
+debug/
+
+# OS
+.DS_Store
+Thumbs.db

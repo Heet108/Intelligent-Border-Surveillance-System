@@ -1,0 +1,48 @@
+{"type": "intrusion", "track_id": 0, "timestamp": "2026-04-26T19:26:20.855091", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 1, "timestamp": "2026-04-26T19:26:22.818782", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 2, "timestamp": "2026-04-26T19:26:23.073910", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 3, "timestamp": "2026-04-26T19:26:23.715053", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 2, "timestamp": "2026-04-26T19:26:28.331279", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.01}
+{"type": "intrusion", "track_id": 1, "timestamp": "2026-04-26T19:36:16.750181", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 1, "timestamp": "2026-04-26T19:36:21.761104", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.01}
+{"type": "intrusion", "track_id": 0, "timestamp": "2026-04-30T19:44:24.804280", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 0, "timestamp": "2026-04-30T19:44:31.753335", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 0, "timestamp": "2026-04-30T19:44:36.762928", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.01}
+{"type": "loitering", "track_id": 0, "timestamp": "2026-04-30T19:44:39.783045", "severity": "high", "zone_id": "zone_1", "dwell_time": 8.03}
+{"type": "intrusion", "track_id": 3, "timestamp": "2026-04-30T19:44:44.016282", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:23.523516", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:26.856066", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:38.090992", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:48.112584", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 4, "timestamp": "2026-04-30T20:10:54.796980", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.01}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:56.620914", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:10:59.036675", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 4, "timestamp": "2026-04-30T20:11:04.046424", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.01}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:04.739796", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:07.838695", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:10.213211", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:12.473677", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:16.317623", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:18.416191", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:20.836357", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:23.925521", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:50.618129", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-04-30T20:11:52.767913", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 4, "timestamp": "2026-04-30T20:11:58.206723", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.03}
+{"type": "loitering", "track_id": 4, "timestamp": "2026-04-30T20:12:01.208378", "severity": "high", "zone_id": "zone_1", "dwell_time": 8.04}
+{"type": "intrusion", "track_id": 10, "timestamp": "2026-04-30T20:12:07.629507", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 11, "timestamp": "2026-04-30T20:12:11.247595", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 11, "timestamp": "2026-04-30T20:12:14.370549", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:15.769585", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:17.778778", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:20.084129", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:22.218781", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:24.585000", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:28.051006", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 12, "timestamp": "2026-04-30T20:12:30.923370", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 13, "timestamp": "2026-04-30T20:12:33.261867", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 14, "timestamp": "2026-04-30T20:12:36.464185", "severity": "high", "zone_id": "zone_1"}
+{"type": "intrusion", "track_id": 4, "timestamp": "2026-05-04T18:44:04.427148", "severity": "high", "zone_id": "zone_1"}
+{"type": "dwell", "track_id": 4, "timestamp": "2026-05-04T18:44:09.422742", "severity": "medium", "zone_id": "zone_1", "dwell_time": 5.04}
+{"type": "loitering", "track_id": 4, "timestamp": "2026-05-04T18:44:12.420742", "severity": "high", "zone_id": "zone_1", "dwell_time": 8.04}
+{"type": "intrusion", "track_id": 6, "timestamp": "2026-05-04T18:44:14.219549", "severity": "high", "zone_id": "zone_1"}
