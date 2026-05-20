@@ -21,8 +21,8 @@ print("Starting auto-labeling...\n")
 for split in SPLITS:
 
     IMAGE_DIR = os.path.join(BASE_DIR, split)
-    LABEL_DIR = os.path.join(BASE_LABELS, split)  # ✅ includes split
-    DEBUG_DIR = os.path.join(BASE_DEBUG, split)    # ✅ includes split
+    LABEL_DIR = os.path.join(BASE_LABELS, split)  
+    DEBUG_DIR = os.path.join(BASE_DEBUG, split)    
 
     os.makedirs(LABEL_DIR, exist_ok=True)
     os.makedirs(DEBUG_DIR, exist_ok=True)
@@ -87,62 +87,4 @@ for split in SPLITS:
         cv2.imwrite(os.path.join(DEBUG_DIR, img_name), debug_img)
         print(f"  {img_name} -> {total_boxes} boxes written")
 
-print("\n✅ All splits labeled successfully")
-
-
-# import os
-# import cv2
-# import numpy as np
-# from ultralytics import YOLO
-
-# model = YOLO("yolov8m.pt")
-
-# # Test on a VID image specifically
-# img_path = "dataset/images/train/VID20260413134238_000002.jpg"
-
-# img = cv2.imread(img_path)
-# print(f"Image shape: {img.shape}")
-
-# r = model(img_path, conf=0.25, imgsz=832)[0]
-
-# if r.boxes is not None and len(r.boxes.xyxy) > 0:
-#     print(f"✅ Detections: {len(r.boxes.xyxy)}")
-#     for i, box in enumerate(r.boxes.xyxy):
-#         cls_id = int(r.boxes.cls[i].item())
-#         conf = float(r.boxes.conf[i].item())
-#         print(f"   {model.names[cls_id]} conf={conf:.2f}")
-# else:
-#     print("❌ No detections — try lowering conf to 0.1")
-
-
-
-
-
-# import os
-
-# folders = [
-#     "dataset/images/train",
-#     "dataset/images/val", 
-#     "dataset/images/test"
-# ]
-
-# for folder in folders:
-#     renamed = 0
-#     for filename in os.listdir(folder):
-#         if not filename.lower().endswith((".jpg", ".png", ".jpeg")):
-#             continue
-        
-#         # Replace spaces, special characters
-#         new_name = filename.replace(" ", "_")
-#         new_name = new_name.replace("-", "_")
-#         new_name = new_name.replace(".", "_", new_name.count(".") - 1)  # keep last dot for extension
-        
-#         if new_name != filename:
-#             os.rename(
-#                 os.path.join(folder, filename),
-#                 os.path.join(folder, new_name)
-#             )
-#             renamed += 1
-#             print(f"  Renamed: {filename} -> {new_name}")
-    
-#     print(f"✅ {folder}: {renamed} files renamed")
+print("\nAll splits labeled successfully")

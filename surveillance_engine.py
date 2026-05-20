@@ -26,7 +26,6 @@ if not os.path.exists("alerts"):
     os.makedirs("alerts")
 
 detector = PersonDetector()
-# tracker = Tracker()   # ❌ REMOVED
 fps_counter = FPS()
 alert_system = AlertSystem()
 

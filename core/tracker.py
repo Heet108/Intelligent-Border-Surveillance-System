@@ -12,7 +12,7 @@ class Tracker:
         self.max_lost_time = 3.0
         self.distance_thresh = 120
 
-        # 🔥 ADDED: safety thresholds
+        # safety thresholds
         self.max_distance_limit = 300   # reject impossible matches
         self.min_iou_match = 0.1        # avoid weak overlaps
 
@@ -78,11 +78,11 @@ class Tracker:
                     dist = self._distance(object_boxes[r], boxes[c])
                     iou = self._iou(object_boxes[r], boxes[c])
 
-                    # 🔥 ADDED: HARD GATING (critical fix)
+                    # HARD GATING
                     if dist > self.max_distance_limit:
                         continue
 
-                    # 🔥 ADDED: reject very weak matches
+                    # reject very weak matches
                     if iou < self.min_iou_match and dist > self.distance_thresh:
                         continue
 

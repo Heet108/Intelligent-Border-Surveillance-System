@@ -200,7 +200,7 @@
 #     print("=== STEP 5: YAML ===")
 #     create_yaml()
 
-#     print("✅ DONE — Ready for labeling & training")
+#     print("DONE — Ready for labeling & training")
 
 
 # if __name__ == "__main__":

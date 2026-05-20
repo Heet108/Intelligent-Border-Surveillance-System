@@ -32,7 +32,6 @@ class PolygonZone:
         self.reentry_cooldown = 3
         self.intrusion_cooldown = 5
 
-        # 🔥 FIXED (reduced time)
         self.LOITER_DWELL_THRESHOLD = 8
         self.LOITER_MOVEMENT_THRESHOLD = 15
 
@@ -128,7 +127,6 @@ class PolygonZone:
 
         dwell = self.get_dwell_time(track_id)
 
-        # 🔥 FIX: use avg_motion instead of total motion
         movement = self.motion_distance.get(track_id, 0)
         avg_motion = movement / dwell if dwell > 0 else 0
 

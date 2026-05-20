@@ -30,7 +30,7 @@ class AlertSystem:
 
     def _write_alert(self, data):
         if not self._should_write(data["type"], data["track_id"]):
-            return  # 🚫 skip duplicate
+            return 
 
         with open(self.file_path, "a") as f:
             json.dump(data, f)
