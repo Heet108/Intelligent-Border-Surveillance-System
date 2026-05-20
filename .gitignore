@@ -5,9 +5,13 @@ __pycache__/
 # Virtual Environment
 venv/
 env/
+.venv/
 
 # VS Code
 .vscode/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Training/Data
 dataset/
@@ -19,10 +23,14 @@ temp_frames/
 
 # Model Weights
 *.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
 
 # Logs
-logs/*.txt
-logs/*.csv
+logs/
+*.log
 
 # Debug
 debug/
@@ -36,6 +44,7 @@ Thumbs.db
 *.MOV
 *.avi
 *.jpg
+*.jpeg
 *.png
 
 # Sample videos/images
